@@ -1,0 +1,224 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.block_section{
+    display: flex;
+}
+
+.div_2{
+    width: 70%;
+    height: auto;
+    background-color: #f3e8c7;
+    border: 1px solid black;
+}
+
+.div_1{
+    width: 15%;
+}
+
+.div_3{
+    width: 15%;
+}
+
+.section{
+    display: flex;
+}
+
+.osnova{
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+    width: 100%;
+    background-color: #f8e1c8;
+}
+
+.name{
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h3,h4{
+    color: #6f3198;
+}
+
+.h3{
+    margin-bottom: 3px;
+}
+
+.hr{
+    margin: 0;
+    color: black;
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+.portret{
+    width: 260px;
+    background-color: #cecccc;
+}
+
+.img1{
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+.p1{
+    padding: 3px;
+    margin: 0;
+    font-size: 14px;
+    display: block;
+}
+
+.DA{
+    display: flex;
+}
+
+.block{
+    margin-left: 30px;
+}
+
+.pamat{
+    display: flex;
+    justify-content: space-between;
+}
+
+.portret2{
+
+
+}
+
+img{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.p2{
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+}
+
+.video{
+    width: 80%;
+    height: 500px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+hr{
+    margin: 40px;
+}
+
+.p3{
+    text-align: center;
+}
+
+.img_5{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+@media (max-width: 1430px) {
+    .portret{
+        margin: 0 auto;
+    }
+
+    .pamat{
+        display: block;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .DA{
+        display: block;
+    }
+
+}
+
+@media (max-width: 880px) {
+    .name{
+        font-size: 20px;
+    }
+
+    .div_2{
+        width: 100%;
+    }
+
+    .div_1{
+        display: none;
+    }
+
+    .div_3{
+        display: none;
+    }
+
+    .video{
+        height: 400px;
+    }
+}
+
+.p3{
+    font-size: 20px;
+}
+
+@media (max-width: 680px) {
+    .video{
+        height: 300px;
+    }
+}
+
+@media (max-width: 500px) {
+    .video{
+        height: 200px;
+    }
+}
+
+@media (max-width: 500px) {
+    .video{
+        height: 150px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
